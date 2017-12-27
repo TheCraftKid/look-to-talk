@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+main {
+   padding: 16px;
+}
+
+header {
+  padding: 0px 16px;
+  height: 64px;
+  width: 100%;
+  background: #607D8B;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  pointer-events: none;
+  position: relative;
+}

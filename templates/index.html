@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Look-to-Talk</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
+  <script src="{{ url_for('static', filename='scripts/index.js') }}"></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      Look-to-talk
+    </div>
+  </header>
+
+  <main>
+    <button>
+      Start capture
+    </button>
+    <h1>Output:</h1>
+    <video autoplay></video>
+    <div>
+      <h1>Status</h1>
+      You are {{ looking }} at the camera.
+    </div>
+  </main>
+</body>
+
+</html>
